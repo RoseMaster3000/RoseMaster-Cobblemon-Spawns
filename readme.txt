@@ -1,15 +1,10 @@
-howdy! i'm easysqueeze, the creator of this pack.
-i didn't make any of the incredible models or animations in this pack. all of those are added by individual contributors who spent a ton of their time to make this pack a reality.
-please note i have the full permission of all contributors of this pack to use their assets, you can find proof in the folder titled "proofs of permission"
+# Overveiw
+I compiled AllTheMons, Biosphere Expanded, and converted them for cobblemon 1.6.1 (minecraft 1.21.1). I also (plan) to add custom spawns fro dangerous structures in minecraft, as I run this on a modded server where vanilla mobs are disabled.
 
-discord:
-https://discord.gg/gddMDWX2nS
-ask questions there in the discord, please do not DM me questions
-
-info doc:
-https://docs.google.com/document/d/1ccaWNm_0T3_0gx9qqYkaiFxoZH4tiUEGLfUkZb7lK0U/edit
-
-contributors:
+# Contributors
+Jenova & oblvn_us, creator of [Biosphere Expanded](https://modrinth.com/datapack/additional-cobblemon-spawn-compat/version/CBE-4.0)
+[AllTheMons](https://modrinth.com/datapack/allthemons)
+easysqueeze
 Genotype (genotypexd), the creator of GenoMons
 Raspix, the creator of CobbleCats
 ASHISK, the creator of Ashimons and a contributor to Pokemans Pack
@@ -30,9 +25,6 @@ Lazaro, a contributor to Pokemans Pack
 笑声, a contributor to Pokemans Pack
 BlazeHydroxide, the creator of Hydro's Reanimodel Pack
 YaBoiBruno, the creator of MoreMons
-
-other important people:
 SpencyRock (spencyrock), the creator of UltiMons and the inspiration for this pack, as well as significant information contributions
-Frank The Farmer (frankthefarmer), who helped me a ton with coding JSONs and was instrumental in the creation of AllTheMons
-i love you frank <3
-Squirly (squirlyvgc), who also helped with the JSONs and spawn files
+Frank The Farmer (frankthefarmer) JSONs creation
+Squirly (squirlyvgc)
