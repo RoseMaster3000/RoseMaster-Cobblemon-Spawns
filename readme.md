@@ -1,5 +1,5 @@
 # Overveiw
-I compiled AllTheMons, Biosphere Expanded, and converted them for cobblemon 1.6.1 (minecraft 1.21.1). I also (plan) to add custom spawns fro dangerous structures in minecraft, as I run this on a modded server where vanilla mobs are disabled.
+I compiled AllTheMons, Biosphere Expanded, and converted them for cobblemon 1.6.1 (minecraft 1.21.1). I also (plan) to add custom spawns for dangerous structures in minecraft (e.g. nether fortress), as I run this on a modded server where vanilla mobs are disabled.
 
 # Contributors
 * Jenova & oblvn_us, creator of [Biosphere Expanded](https://modrinth.com/datapack/additional-cobblemon-spawn-compat/version/CBE-4.0)
