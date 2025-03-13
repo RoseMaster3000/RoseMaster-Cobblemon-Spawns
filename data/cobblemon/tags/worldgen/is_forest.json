@@ -1,0 +1,83 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:is_forest",
+	"minecraft:cherry_grove",
+    {
+      "id": "#c:flower_forests",
+      "required": false
+    },
+	{
+      "id": "#c:tree_deciduous",
+      "required": false
+    },
+	{
+      "id": "terralith:alpha_islands",
+      "required": false
+    },
+	{
+      "id": "terralith:alpha_islands_winter",
+      "required": false
+    },
+	{
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+	{
+      "id": "terralith:forested_highlands",
+      "required": false
+    },
+	{
+      "id": "terralith:lavender_forest",
+      "required": false
+    },
+	{
+      "id": "terralith:lavender_valley",
+      "required": false
+    },
+	{
+      "id": "terralith:mirage_isles",
+      "required": false
+    },
+	{
+      "id": "terralith:sakura_grove",
+      "required": false
+    },
+	{
+      "id": "terralith:sakura_valley",
+      "required": false
+    },
+	{
+      "id": "terralith:temperate_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:dry_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:birch_taiga",
+      "required": false
+    },
+    {
+      "id": "wythers:boreal_forest_red",
+      "required": false
+    },
+    {
+      "id": "wythers:boreal_forest_yellow",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:tangled_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest",
+      "required": false
+    }
+  ]
+}

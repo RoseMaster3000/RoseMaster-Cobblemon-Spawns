@@ -1,0 +1,66 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "nacli-1",
+            "pokemon": "nacli",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+		{
+            "id": "nacli-2",
+            "pokemon": "nacli",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-34",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_salt",
+                    "betterend:sulphur_springs"
+                ]
+            }
+        },
+		{
+            "id": "nacli-quartz-1",
+            "pokemon": "nacli",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_quartz"
+                ],
+				"neededBaseBlocks": [
+					"minecraft:quartz_block"
+				]
+            }
+        }
+    ]
+}

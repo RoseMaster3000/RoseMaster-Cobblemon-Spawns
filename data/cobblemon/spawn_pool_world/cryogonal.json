@@ -1,0 +1,62 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cryogonal-1",
+            "pokemon": "cryogonal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "27-52",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "cryogonal-2",
+            "pokemon": "cryogonal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-52",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ]
+            }
+        },
+        {
+            "id": "cryogonal-3",
+            "pokemon": "cryogonal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-56",
+            "weight": 12.0,
+            "condition": {
+                "biomes": [
+                    "betterend:ice_starfield",
+                    "ad_astra:glacio_snowy_barrens",
+                    "ad_astra:glacio_ice_peaks"
+                ]
+            }
+        }
+    ]
+}

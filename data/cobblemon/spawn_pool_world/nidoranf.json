@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "nidoranf-1",
+            "pokemon": "nidoranf",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "3-28",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "nidoranf-2",
+            "pokemon": "nidoranf",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-32",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:blossoming_spires",
+                    "betterend:umbrella_jungle",
+                    "betternether:nether_jungle"
+                ]
+            }
+        }
+    ]
+}

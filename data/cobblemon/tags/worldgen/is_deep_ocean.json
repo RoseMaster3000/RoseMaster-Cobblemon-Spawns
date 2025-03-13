@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_deep_ocean",
+    {
+      "id": "#c:deep_ocean",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:hyacinth_deeps",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:volcanic_island",
+      "required": false
+    },
+    {
+      "id": "wythers:deep_icy_ocean",
+      "required": false
+    },
+    {
+      "id": "terralith:deep_warm_ocean",
+      "required": false
+    }
+  ]
+}

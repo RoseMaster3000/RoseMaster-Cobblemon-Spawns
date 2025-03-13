@@ -1,0 +1,55 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hitmonchan-1",
+            "pokemon": "hitmonchan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-46",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "terrestria:volcanic_island"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:lava"
+                ]
+            }
+        },
+        {
+            "id": "hitmonchan-2",
+            "pokemon": "hitmonchan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-50",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "betterend:blossoming_spires",
+                    "betterend:lantern_woods"
+                ]
+            }
+        }
+    ]
+}

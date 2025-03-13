@@ -1,0 +1,87 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sableye-1",
+            "pokemon": "sableye",
+            "presets": [
+                "natural",
+                "gemstones"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "sableye-2",
+            "pokemon": "sableye",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:crystal_canyon"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        },
+        {
+            "id": "sableye-3",
+            "pokemon": "sableye",
+            "presets": [
+                "natural",
+                "gemstones"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-38",
+            "weight": 0.75,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_crystal",
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "sableye-4",
+            "pokemon": "sableye",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "16-42",
+            "weight": 12,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest"
+                ]
+            }
+        }
+    ]
+}

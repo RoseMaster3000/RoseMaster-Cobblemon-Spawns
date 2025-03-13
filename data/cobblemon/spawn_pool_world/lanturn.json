@@ -1,0 +1,61 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lanturn-1",
+            "pokemon": "lanturn",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "27-46",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "maxY": 48,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        },
+        {
+            "id": "lanturn-2",
+            "pokemon": "lanturn",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "31-49",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "betterend:megalake",
+                    "betterend:megalake_grove"
+                ]
+            }
+        },
+        {
+            "id": "lanturn-3",
+            "pokemon": "lanturn",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "31-56",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "alexscaves:abyssal_chasm"
+                ]
+            }
+        }
+    ]
+}

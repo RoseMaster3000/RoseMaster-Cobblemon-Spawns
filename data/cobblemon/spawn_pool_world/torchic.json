@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "torchic-1",
+            "pokemon": "torchic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "torchic-2",
+            "pokemon": "torchic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-36",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land",
+                    "betterend:dry_shrubland",
+                    "betterend:lantern_woods"
+                ]
+            }
+        }
+    ]
+}

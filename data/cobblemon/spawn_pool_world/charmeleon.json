@@ -1,0 +1,83 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "charmeleon-1",
+            "pokemon": "charmeleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-40",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_volcanic",
+                    "terrestria:volcanic_island"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "charmeleon-2",
+            "pokemon": "charmeleon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-40",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        },
+        {
+            "id": "charmeleon-3",
+            "pokemon": "charmeleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-40",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "regions_unexplored:scorching_caves",
+                    "terralith:cave/mantle_caves"
+                ],
+                "neededNearbyBlocks": [
+                    "regions_unexplored:ash_vent",
+                    "#minecraft:basalt",
+                    "#minecraft:blackstone"
+                ]
+            }
+        },
+        {
+            "id": "charmeleon-4",
+            "pokemon": "charmeleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-42",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land"
+                ]
+            }
+        }
+    ]
+}

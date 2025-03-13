@@ -1,0 +1,145 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gengar-1",
+            "pokemon": "gengar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "36-50",
+            "weight": 0.06,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "gengar-2",
+            "pokemon": "gengar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": false,
+                "maxLight": 0,
+                "biomes": [
+                    "#cobblemon:is_overworld",
+                    "alexscaves:toxic_caves"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "gengar-3",
+            "pokemon": "gengar",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "36-50",
+            "weight": 0.06,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "gengar-4",
+            "pokemon": "gengar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "maxLight": 0,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "gengar-5",
+            "pokemon": "gengar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether",
+                    "regions_unexplored:blackstone_basin"
+                ]
+            },
+            "drops": {
+                "amount": "1",
+                "entries": [
+                    {
+                        "item": "minecraft:ghast_tear",
+                        "percentage": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "gengar-6",
+            "pokemon": "gengar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-60",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest",
+                    "betterend:shadow_forest",
+                    "betterend:umbra_valley"
+                ]
+            }
+        }
+    ]
+}

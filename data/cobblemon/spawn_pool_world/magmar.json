@@ -1,0 +1,106 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magmar-1",
+            "pokemon": "magmar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills"
+                ],
+                "isRaining": false,
+				"neededNearbyBlocks": [
+                    "#minecraft:lava",
+                    "minecraft:magma_block"
+				]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "magmar-2",
+            "pokemon": "magmar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_volcanic",
+                    "terrestria:volcanic_island"
+                ],
+                "isRaining": false,
+                "neededNearbyBlocks": [
+                    "#minecraft:lava",
+                    "#minecraft:magma_block",
+                    "#minecraft:blackstone",
+                    "#minecraft:basalt",
+                    "terrestria:volcanic_rock"
+                ]
+            }
+        },
+        {
+            "id": "magmar-3",
+            "pokemon": "magmar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        },
+        {
+            "id": "magmar-4",
+            "pokemon": "magmar",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "regions_unexplored:scorching_caves",
+                    "terralith:cave/mantle_caves"
+                ],
+                "neededNearbyBlocks": [
+                    "regions_unexplored:ash_vent",
+                    "#minecraft:lava",
+                    "#minecraft:magma_block",
+                    "#minecraft:basalt",
+                    "#minecraft:blackstone"
+                ]
+            }
+        }
+    ]
+}

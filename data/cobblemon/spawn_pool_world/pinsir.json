@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pinsir-1",
+            "pokemon": "pinsir",
+            "presets": [
+                "natural",
+                "treetop",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "pinsir-2",
+            "pokemon": "pinsir",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-54",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "betterend:dry_shrubland",
+                    "betterend:lantern_woods",
+                    "betternether:nether_jungle"
+                ]
+            }
+        }
+    ]
+}

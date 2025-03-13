@@ -1,0 +1,79 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gligar-1",
+            "pokemon": "gligar",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-43",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "gligar-2",
+            "pokemon": "gligar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-43",
+            "weight": 1.8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "gligar-3",
+            "pokemon": "gligar",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-43",
+            "weight": 1.8,
+            "condition": {
+                "biomes": [
+                    "#minecraft:dripstone_caves"
+                ],
+                "neededNearbyBlock": "#minecraft:dripstone"
+            }
+        },
+        {
+            "id": "gligar-4",
+            "pokemon": "gligar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest"
+                ]
+            }
+        }
+    ]
+}

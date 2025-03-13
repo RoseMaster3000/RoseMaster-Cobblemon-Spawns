@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "combusken-1",
+            "pokemon": "combusken",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "combusken-2",
+            "pokemon": "combusken",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land",
+                    "betterend:dry_shrubland",
+                    "betterend:lantern_woods"
+                ]
+            }
+        }
+    ]
+}

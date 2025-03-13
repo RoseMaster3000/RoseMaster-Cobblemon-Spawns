@@ -1,0 +1,62 @@
+{
+  "replace": false,
+  "values": [
+	"#cobblemon:is_arid",
+	"#cobblemon:is_cold_ocean",
+	"#cobblemon:is_mountain",
+	"#cobblemon:is_mushroom",
+	"#cobblemon:is_taiga",
+    {
+      "id": "regions_unexplored:autumnal_maple_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:golden_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orchard",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_autumn",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_birch_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_flower_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_forest_edge",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:harvest_fields",
+      "required": false
+    }
+  ]
+}

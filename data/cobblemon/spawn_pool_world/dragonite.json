@@ -1,0 +1,96 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dragonite-1",
+            "pokemon": "dragonite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-60",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "maxY": 82,
+                "biomes": [
+                    "#cobblemon:is_overworld",
+                    "terrestria:volcanic_island"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:water",
+                    "terrestria:volcanic_rock"
+                ],
+                "isRaining": true
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:lava"
+                ]
+            }
+        },
+        {
+            "id": "dragonite-2",
+            "pokemon": "dragonite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-60",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sky"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "dragonite-3",
+            "pokemon": "dragonite",
+            "presets": [
+                "underwater",
+                "ocean_ruins"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "55-60",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "maxY": 63,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "dragonite-4",
+            "pokemon": "dragonite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "60-72",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land",
+                    "betterend:dragon_graveyards",
+                    "stellarity:dragons_den"
+                ]
+            }
+        }
+    ]
+}

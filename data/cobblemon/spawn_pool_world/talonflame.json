@@ -1,0 +1,66 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "talonflame-1",
+            "pokemon": "talonflame",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-50",
+            "weight": 0.06,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_taiga",
+                    "terrestria:volcanic_island"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "talonflame-2",
+            "pokemon": "talonflame",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-50",
+            "weight": 0.06,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_forest",
+                    "#cobblemon:nether/is_fungus"
+                ]
+            }
+        },
+        {
+            "id": "talonflame-3",
+            "pokemon": "talonflame",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-54",
+            "weight": 0.06,
+            "condition": {
+                "biomes": [
+                    "betterend:lantern_woods"
+                ]
+            }
+        }
+    ]
+}

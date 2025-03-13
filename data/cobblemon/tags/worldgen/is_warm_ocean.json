@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warm_ocean",
+	  {
+      "id": "byg:lush_stacks",
+      "required": false
+    },
+    {
+      "id": "terralith:deep_warm_ocean",
+      "required": false
+    }
+  ]
+}

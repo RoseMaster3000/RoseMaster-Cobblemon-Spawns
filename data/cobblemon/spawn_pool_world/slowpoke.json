@@ -1,0 +1,67 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "slowpoke-1",
+            "pokemon": "slowpoke",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "maxY": 67,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "terrestria:volcanic_rock",
+                    "terrestria:andisol_grass_block"
+                ]
+            }
+        },
+        {
+            "id": "slowpoke-2",
+            "pokemon": "slowpoke",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-36",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "betterend:megalake",
+                    "betterend:megalake_grove"
+                ]
+            }
+        },
+        {
+            "id": "slowpoke-galarian-3",
+            "pokemon": "slowpoke galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-25",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:mangrove_swamp"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "byg:brimstone_caverns",
+            "required": false
+        },
+        {
+            "id": "byg:wailing_garth",
+            "required": false
+        },
+        {
+            "id": "incendium:toxic_heap",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:mycotoxic_undergrowth",
+            "required": false
+        },
+        {
+            "id": "betternether:nether_jungle",
+            "required": false
+        }
+    ]
+}

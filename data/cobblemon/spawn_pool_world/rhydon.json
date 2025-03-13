@@ -1,0 +1,75 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rhydon-1",
+            "pokemon": "rhydon",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-49",
+            "weight": 0.18,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "rhydon-2",
+            "pokemon": "rhydon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-49",
+            "weight": 0.18,
+            "condition": {
+                "biomes": [
+                    "terrestria:volcanic_island"
+                ],
+                "neededNearbyBlocks": [
+                    "terrestria:andisol_grass_block"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:lava"
+                ]
+            }
+        },
+        {
+            "id": "rhydon-3",
+            "pokemon": "rhydon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "46-58",
+            "weight": 1.8,
+            "condition": {
+                "biomes": [
+                    "betterend:dry_shrubland",
+                    "betterend:dust_wastelands"
+                ]
+            }
+        }
+    ]
+}

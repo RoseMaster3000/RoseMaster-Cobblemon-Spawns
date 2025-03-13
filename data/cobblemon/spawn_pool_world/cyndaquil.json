@@ -1,0 +1,50 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cyndaquil-1",
+            "pokemon": "cyndaquil",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_temperate",
+                    "terrestria:volcanic_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "cyndaquil-2",
+            "pokemon": "cyndaquil",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-36",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land",
+                    "betterend:dry_shrubland",
+                    "betterend:lantern_woods"
+                ]
+            }
+        }
+    ]
+}

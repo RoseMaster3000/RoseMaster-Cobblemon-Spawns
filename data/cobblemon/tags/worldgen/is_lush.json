@@ -1,0 +1,42 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lush_caves",
+    {
+      "id": "#forge:is_lush",
+      "required": false
+    },
+	{
+      "id": "byg:lush_stacks",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:ancient_delta",
+      "required": false
+    },
+    {
+      "id": "terralith:cave/underground_jungle",
+      "required": false
+    },
+	{
+      "id": "wythers:lichenous_caves",
+      "required": false
+    },
+	{
+      "id": "wythers:lichenous_dripstone_caves",
+      "required": false
+    },
+    {
+      "id": "wythers:lush_dripstone_caves",
+      "required": false
+    },
+    {
+      "id": "wythers:lush_fungous_dripstone_caves",
+      "required": false
+    },
+    {
+      "id": "wythers:lush_shroom_caves",
+      "required": false
+    }
+  ]
+}

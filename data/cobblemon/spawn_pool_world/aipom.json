@@ -1,0 +1,48 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "aipom-1",
+            "pokemon": "aipom",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "11-36",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island",
+                    "terrestria:volcanic_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:jungle_log"
+                ]
+            }
+        },
+        {
+            "id": "aipom-2",
+            "pokemon": "aipom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-40",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "betterend:blossoming_spires"
+                ]
+            }
+        }
+    ]
+}

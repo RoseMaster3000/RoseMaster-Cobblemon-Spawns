@@ -1,0 +1,50 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tinkatuff-1",
+            "pokemon": "tinkatuff",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-38",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "tinkatuff-2",
+            "pokemon": "tinkatuff",
+            "presets": [
+                "natural",
+                "gemstones"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-38",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "masquerain-1",
+            "pokemon": "masquerain",
+            "presets": [
+                "water",
+                "freshwater"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "22-45",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "night",
+                "isRaining": false
+            }
+        },
+        {
+            "id": "masquerain-2",
+            "pokemon": "masquerain",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "22-45",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#the_bumblezone:the_bumblezone"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        },
+        {
+            "id": "masquerain-2",
+            "pokemon": "masquerain",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "26-48",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "betterend:megalake",
+                    "betterend:megalake_grove"
+                ]
+            }
+        }
+    ]
+}

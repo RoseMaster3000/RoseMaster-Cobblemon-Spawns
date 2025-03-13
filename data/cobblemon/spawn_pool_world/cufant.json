@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cufant-1",
+            "pokemon": "cufant",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 5.4,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "cufant-2",
+            "pokemon": "cufant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-50",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "betterend:sulphur_springs",
+                    "betterend:amber_land"
+                ]
+            }
+        }
+    ]
+}

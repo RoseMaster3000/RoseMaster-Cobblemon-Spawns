@@ -1,0 +1,146 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gastly-1",
+            "pokemon": "gastly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "gastly-2",
+            "pokemon": "gastly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxLight": 0,
+                "biomes": [
+                    "#cobblemon:is_overworld",
+                    "alexscaves:toxic_caves"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm"
+
+                ]
+            }
+        },
+        {
+            "id": "gastly-3",
+            "pokemon": "gastly",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "gastly-4",
+            "pokemon": "gastly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "maxLight": 0,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "gastly-5",
+            "pokemon": "gastly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether",
+                    "regions_unexplored:blackstone_basin"
+                ]
+            },
+            "drops": {
+                "amount": "1",
+                "entries": [
+                    {
+                        "item": "minecraft:ghast_tear",
+                        "percentage": 2.5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "gastly-6",
+            "pokemon": "gastly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-34",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest",
+                    "betterend:shadow_forest",
+                    "betterend:umbra_valley"
+                ]
+            }
+        }
+    ]
+}

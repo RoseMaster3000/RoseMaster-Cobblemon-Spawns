@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tyrantrum-1",
+            "pokemon": "tyrantrum",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "39-52",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "tyrantrum-2",
+            "pokemon": "tyrantrum",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "44-58",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "betterend:umbra_valley",
+                    "betternether:bone_reef",
+                    "stellarity:dragons_den"
+                ]
+            }
+        },
+        {
+            "id": "tyrantrum-3",
+            "pokemon": "tyrantrum",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "44-58",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "alexscaves:primordial_caves"
+                ]
+            }
+        }
+    ]
+}

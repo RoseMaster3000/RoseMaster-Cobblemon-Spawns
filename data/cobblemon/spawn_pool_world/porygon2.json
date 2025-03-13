@@ -1,0 +1,59 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "porygon2-1",
+            "pokemon": "porygon2",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-52",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "cobblemon:pc"
+                ]
+            }
+        },
+        {
+            "id": "porygon2-2",
+            "pokemon": "porygon2",
+            "presets": [
+                "natural",
+                "gemstones"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-52",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "porygon2-3",
+            "pokemon": "porygon2",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-52",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "betterend:crystal_mountains"
+                ]
+            }
+        }
+    ]
+}

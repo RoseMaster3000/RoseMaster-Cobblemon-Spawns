@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rampardos-1",
+            "pokemon": "rampardos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "30-50",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "rampardos-2",
+            "pokemon": "rampardos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "36-54",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "betterend:dust_wastelands",
+                    "betternether:bone_reef",
+                    "betternether:sulfuric_bone_reef"
+                ]
+            }
+        },
+        {
+            "id": "rampardos-3",
+            "pokemon": "rampardos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "36-54",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "alexscaves:primordial_caves"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dusclops-1",
+            "pokemon": "dusclops",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "37-46",
+            "weight": 0.54,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "dusclops-2",
+            "pokemon": "dusclops",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-46",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_soul_sand"
+                ]
+            }
+        },
+        {
+            "id": "dusclops-3",
+            "pokemon": "dusclops",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-46",
+            "weight": 0.54,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "dusclops-4",
+            "pokemon": "dusclops",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-54",
+            "weight": 0.54,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest",
+                    "betterend:shadow_forest",
+                    "betterend:umbra_valley"
+                ]
+            }
+        }
+    ]
+}

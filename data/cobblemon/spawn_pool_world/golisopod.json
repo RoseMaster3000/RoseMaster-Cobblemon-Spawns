@@ -1,0 +1,101 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golisopod-1",
+            "pokemon": "golisopod",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-53",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "maxY": 67,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "terrestria:volcanic_rock",
+                    "terrestria:andisol_grass_block"
+                ]
+            }
+        },
+        {
+            "id": "golisopod-2",
+            "pokemon": "golisopod",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-53",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY":0,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "golisopod-3",
+            "pokemon": "golisopod",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "30-53",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY":0,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "golisopod-4",
+            "pokemon": "golisopod",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "35-55",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "alexscaves:abyssal_chasm"
+                ]
+            }
+        }
+    ]
+}

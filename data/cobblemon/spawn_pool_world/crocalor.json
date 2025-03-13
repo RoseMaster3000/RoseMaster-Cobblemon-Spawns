@@ -1,0 +1,67 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "crocalor-1",
+            "pokemon": "crocalor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "crocalor-2",
+            "pokemon": "crocalor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        },
+        {
+            "id": "crocalor-3",
+            "pokemon": "crocalor",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "regions_unexplored:scorching_caves",
+                    "terralith:cave/mantle_caves"
+                ],
+                "neededNearbyBlocks": [
+                    "regions_unexplored:ash_vent",
+                    "#minecraft:basalt",
+                    "#minecraft:blackstone",
+                    "#minecraft:lava"
+                ]
+            }
+        }
+    ]
+}

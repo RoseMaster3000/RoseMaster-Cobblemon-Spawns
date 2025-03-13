@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cranidos-1",
+            "pokemon": "cranidos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "10-35",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "cranidos-2",
+            "pokemon": "cranidos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-35",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "betterend:dust_wastelands",
+                    "betternether:bone_reef",
+                    "betternether:sulfuric_bone_reef"
+                ]
+            }
+        },
+        {
+            "id": "cranidos-3",
+            "pokemon": "cranidos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "alexscaves:primordial_caves"
+                ]
+            }
+        }
+    ]
+}

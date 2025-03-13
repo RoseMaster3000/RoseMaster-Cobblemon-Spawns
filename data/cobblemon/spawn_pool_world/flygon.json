@@ -1,0 +1,54 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "flygon-1",
+            "pokemon": "flygon",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-52",
+            "weight": 0.1,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "isRaining": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "flygon-2",
+            "pokemon": "flygon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "50-58",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:sulphur_springs",
+                    "betterend:neon_oasis",
+                    "betternether:mycotoxic_undergrowth",
+                    "stellarity:dragons_den"
+                ]
+            }
+        }
+    ]
+}

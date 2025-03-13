@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dragalge-1",
+            "pokemon": "dragalge",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "48-49",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:kelp_plant"
+                ]
+            }
+        },
+        {
+            "id": "dragalge-2",
+            "pokemon": "dragalge",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "45-57",
+            "weight": 1.5,
+            "condition": {
+                "biomes": [
+                    "alexscaves:abyssal_chasm"
+                ],
+                "maxY": 45
+            }
+        },
+        {
+            "id": "dragalge-1",
+            "pokemon": "dragalge",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "48-49",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_kelp"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "beheeyem-1",
+            "pokemon": "beheeyem",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "46-54",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end",
+                    "betterend:crystal_mountains",
+                    "betterend:dust_wastelands",
+                    "ad_astra:lunar_wastelands"
+                ]
+            },
+			"drops": {
+				"amount": "1",
+				"entries": [
+					{
+					"item": "minecraft:chorus_fruit",
+					"quantityRange": "1-2",
+					"percentage": 66
+					}
+				]
+			}
+        },
+        {
+            "id": "beheeyem-2",
+            "pokemon": "beheeyem",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-49",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "timeRange": "night",
+                "neededNearbyBlocks": [
+                    "minecraft:wheat"
+                ]
+            }
+        },
+		{
+            "id": "beheeyem-3",
+            "pokemon": "beheeyem",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-49",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:howling_constructs"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+					"#the_bumblezone:sempiternal_sanctums"
+				]
+            }
+        }
+    ]
+}

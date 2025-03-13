@@ -1,0 +1,97 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "torkoal-1",
+            "pokemon": "torkoal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_thermal",
+                    "terrestria:volcanic_island"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:coal_ore"
+                ]
+            }
+        },
+        {
+            "id": "torkoal-2",
+            "pokemon": "torkoal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-47",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#minecraft:is_overworld",
+                    "regions_unexplored:scorching_caves"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:coal_ore",
+                    "regions_unexplored:ash_vent"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_thermal",
+                    "regions_unexplored:bioshroom_caves",
+                    "regions_unexplored:redstone_caves",
+                    "regions_unexplored:prismachasm"
+                ]
+            }
+        },
+        {
+            "id": "torkoal-3",
+            "pokemon": "torkoal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        },
+        {
+            "id": "torkoal-4",
+            "pokemon": "torkoal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-58",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land",
+                    "betterend:sulphur_springs"
+                ]
+            }
+        }
+    ]
+}

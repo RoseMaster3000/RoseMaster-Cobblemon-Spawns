@@ -1,0 +1,45 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "luxray-1",
+            "pokemon": "luxray",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-52",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert",
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "luxray-2",
+            "pokemon": "luxray",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-56",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:glowing_grasslands",
+                    "betterend:neon_oasis"
+                ]
+            }
+        }
+    ]
+}

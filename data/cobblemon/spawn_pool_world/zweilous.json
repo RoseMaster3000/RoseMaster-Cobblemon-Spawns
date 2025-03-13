@@ -1,0 +1,103 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zweilous-1",
+            "pokemon": "zweilous",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-55",
+            "weight": 0.9,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "zweilous-2",
+            "pokemon": "zweilous",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-55",
+            "weight": 0.9,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "zweilous-3",
+            "pokemon": "zweilous",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "54-62",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "regions_unexplored:glistering_meadow"
+                ]
+            }
+        },
+        {
+            "id": "zweilous-4",
+            "pokemon": "zweilous",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "54-62",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "stellarity:dragons_den"
+                ]
+            }
+        },
+        {
+            "id": "zweilous-5",
+            "pokemon": "zweilous",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "54-62",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "alexscaves:forlorn_hollows"
+                ]
+            }
+        }
+    ]
+}

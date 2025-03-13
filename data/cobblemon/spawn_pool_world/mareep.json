@@ -1,0 +1,58 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mareep-1",
+            "pokemon": "mareep",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 9.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                },
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_highlands",
+                    "#cobblemon:is_plains"
+                ]
+            }
+        },
+        {
+            "id": "mareep-2",
+            "pokemon": "mareep",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-30",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:glowing_grasslands",
+                    "betterend:neon_oasis"
+                ]
+            }
+        }
+    ]
+}

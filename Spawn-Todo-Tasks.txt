@@ -1,0 +1,152 @@
+STRUCTURES
+---------------
+add > Better Desert Temple 
+add > Better Dungeon 
+add > Better Ocean Monument 
+add > Better Witch Hut 
+add > Better Jungle Temple 
+
+add > terralith 
+underground giant bee hive
+
+
+add > Better Nether Fortress 
+    (knight pokemon, ceruledge, etc)
+
+
+DIMENSIONS
+---------------------
+add > betterend > ultra beasts / future pokemon
+
+add > betternether > primal pokemon
+
+
+SHENANIGANS
+----------------------
+reveiw psudo-legendaries
+sprinkle lvl 100 legendaries (?)
+
+
+REVIEW (neter/end spawns for following...)
+----------------------------
+altaria
+amoonguss
+applin
+araquanid
+arcanine_hisuian
+arctibax
+axew
+azumarill
+azurill
+banette
+barbaracle
+baxcalibur
+bellibolt
+binacle
+blipbug
+capsakid
+croagunk
+cyclizar
+delcatty
+dewpider
+dottler
+drapion
+drilbur
+druddigon
+ducklett
+dudunsparce
+dunsparce
+duosion
+duraludon
+eelektrik
+eelektross
+espurr
+excadrill
+foongus
+fraxure
+frigibax
+froslass
+frosmoth
+glalie
+glameow
+gogoat
+gothita
+gothitelle
+gothorita
+greavard
+grimer_alolan
+growlithe_hisuian
+hawlucha
+haxorus
+hoppip
+houndoom
+houndour
+houndstone
+indeedee
+jumpluff
+leavanny
+litleo
+lokix
+lycanroc
+mandibuzz
+marill
+marowak_alolan
+medicham
+meditite
+meowstic
+minccino
+minior
+morpeko
+mrmime
+mrrime
+muk_alolan
+munna
+musharna
+noibat
+noivern
+nymble
+orbeetle
+orthworm
+pawmi
+pawmo
+pawmot
+pawniard
+poltchageist
+polteageist
+purugly
+pyroar
+reuniclus
+rockruff
+runerigus
+scovillain
+sewaddle
+shuppet
+sinistea
+skiddo
+skiploom
+skitty
+skorupi
+skuntank
+slowbro
+slowking
+slowpoke
+snom
+snorunt
+solosis
+stunky
+swablu
+swadloon
+swanna
+tadbulb
+tauros
+todo.txt
+toedscool
+toedscruel
+togedemaru
+toxel
+toxicroak
+tynamo
+unown
+ursaluna_bloodmoon
+vullaby
+yamask_galarian

@@ -1,0 +1,98 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dragapult-1",
+            "pokemon": "dragapult",
+            "presets": [
+                "natural",
+                "freshwater"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "60-65",
+            "weight": 0.1,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "dragapult-2",
+            "pokemon": "dragapult",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "60-65",
+            "weight": 0.1,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "dragapult-3",
+            "pokemon": "dragapult",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "64-72",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:umbra_valley",
+                    "betternether:old_warped_forest",
+                    "betternether:upside_down_forest"
+                ]
+            }
+        },
+        {
+            "id": "dragapult-4",
+            "pokemon": "dragapult",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "64-72",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "stellarity:dragons_den"
+                ]
+            }
+        }
+    ]
+}

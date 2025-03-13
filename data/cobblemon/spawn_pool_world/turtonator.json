@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "turtonator-1",
+            "pokemon": "turtonator",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-49",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt",
+                    "betternether:magma_land",
+                    "regions_unexplored:infernal_holt",
+                    "stellarity:dragons_den"
+                ]
+            }
+        }
+    ]
+}

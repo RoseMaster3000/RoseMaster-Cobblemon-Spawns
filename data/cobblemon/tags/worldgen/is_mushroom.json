@@ -1,0 +1,50 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:mushroom_fields",
+    {
+      "id": "#c:mushroom",
+      "required": false
+    },
+	{
+      "id": "#forge:is_mushroom",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:deep_dark_forest",
+    },
+    {
+      "id": "regions_unexplored:bioshroom_caves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:fungal_fen",
+      "required": false
+    },
+    {
+      "id": "terralith:cave/fungal_caves",
+      "required": false
+    },
+	{
+      "id": "terralith:mirage_isles",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_taiga",
+      "required": false
+    },
+    {
+      "id": "wythers:deep_dark_incursion",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_mushroom_forest",
+      "required": false
+    }
+  ]
+}

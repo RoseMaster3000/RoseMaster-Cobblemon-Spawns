@@ -1,0 +1,104 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deino-1",
+            "pokemon": "deino",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-30",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "deino-2",
+            "pokemon": "deino",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-30",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "deino-3",
+            "pokemon": "deino",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-34",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+
+                    "regions_unexplored:glistering_meadow"
+                ]
+            }
+        },
+        {
+            "id": "deino-4",
+            "pokemon": "deino",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-34",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "stellarity:dragons_den"
+                ]
+            }
+        },
+        {
+            "id": "deino-5",
+            "pokemon": "deino",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-34",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "alexscaves:forlorn_hollows"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "corvisquire-1",
+            "pokemon": "corvisquire",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-37",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_taiga"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "corvisquire-2",
+            "pokemon": "corvisquire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-37",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "nyctophobia:haunted_forest",
+                    "nyctophobia:eroded_haunted_forest"
+                ]
+            }
+        },
+        {
+            "id": "corvisquire-3",
+            "pokemon": "corvisquire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-42",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest",
+                    "betterend:shadow_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rapidash-1",
+            "pokemon": "rapidash",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "rapidash-2",
+            "pokemon": "rapidash",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_overgrowth",
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        },
+        {
+            "id": "rapidash-3",
+            "pokemon": "rapidash",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "46-60",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "betterend:dry_shrubland"
+                ]
+            }
+        },
+        {
+            "id": "rapidash-galarian-1",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical"
+                ]
+            }
+        },
+        {
+            "id": "rapidash-galarian-2",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "46-60",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "betterend:blossoming_spires",
+                    "betterend:glowing_grasslands",
+                    "betterend:neon_oasis"
+                ]
+            }
+        }
+    ]
+}

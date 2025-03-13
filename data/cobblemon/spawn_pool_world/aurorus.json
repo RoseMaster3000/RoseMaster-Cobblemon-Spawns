@@ -1,0 +1,65 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "aurorus-1",
+            "pokemon": "aurorus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "39-52",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "aurorus-2",
+            "pokemon": "aurorus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "44-58",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "betterend:glowing_grasslands",
+                    "betterend:foggy_mushroomland",
+                    "betterend:umbrella_jungle",
+                    "betternether:upside_down_forest",
+                    "regions_unexplored:blackstone_basin",
+                    "regions_unexplored:glistering_meadow"
+                ]
+            }
+        },
+        {
+            "id": "aurorus-3",
+            "pokemon": "aurorus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "44-58",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "alexscaves:primordial_caves"
+                ]
+            }
+        }
+    ]
+}

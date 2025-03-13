@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tyrunt-1",
+            "pokemon": "tyrunt",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "11-36",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "tyrunt-2",
+            "pokemon": "tyrunt",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "16-40",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "betterend:umbra_valley",
+                    "betternether:bone_reef",
+                    "stellarity:dragons_den"
+                ]
+            }
+        },
+        {
+            "id": "tyrunt-3",
+            "pokemon": "tyrunt",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-40",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "alexscaves:primordial_caves"
+                ]
+            }
+        }
+    ]
+}

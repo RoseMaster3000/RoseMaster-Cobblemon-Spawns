@@ -1,0 +1,222 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "raticate-1",
+            "pokemon": "raticate",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "raticate-2",
+            "pokemon": "raticate",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "minY": 0,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm",
+                    "regions_unexplored:scorching_caves"
+                ]
+            }
+        },
+        {
+            "id": "raticate-3",
+            "pokemon": "raticate",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "minY": 0,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm",
+                    "regions_unexplored:scorching_caves",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "raticate-4",
+            "pokemon": "raticate",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-44",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "betterend:dry_shrubland",
+                    "betterend:lantern_woods"
+                ]
+            }
+        },
+        {
+            "id": "raticate-alolan-1",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 0,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm",
+                    "regions_unexplored:scorching_caves"
+                ]
+            }
+        },
+        {
+            "id": "raticate-alolan-2",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 0,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "regions_unexplored:prismachasm",
+                    "regions_unexplroed:scorching_caves"
+                ]
+            }
+        },
+        {
+            "id": "raticate-alolan-3",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "raticate-alolan-4",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "regions_unexplored:prismachasm",
+                    "regions_unexplored:scorching_caves"
+                ]
+            }
+        },
+        {
+            "id": "raticate-alolan-5",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-44",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "betterend:chorus_forest",
+                    "betterend:shadow_forest",
+                    "betterend:umbra_valley"
+                ]
+            }
+        }
+    ]
+}

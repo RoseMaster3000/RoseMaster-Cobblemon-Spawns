@@ -1,0 +1,103 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hydreigon-1",
+            "pokemon": "hydreigon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "64-69",
+            "weight": 0.1,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "hydreigon-2",
+            "pokemon": "hydreigon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "64-69",
+            "weight": 0.1,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "hydreigon-3",
+            "pokemon": "hydreigon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "70-78",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "regions_unexplored:glistering_meadow"
+                ]
+            }
+        },
+        {
+            "id": "hydreigon-4",
+            "pokemon": "hydreigon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "70-78",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "betterend:dragon_graveyards",
+                    "stellarity:dragons_den"
+                ]
+            }
+        },
+        {
+            "id": "hydreigon-5",
+            "pokemon": "hydreigon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-34",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "alexscaves:forlorn_hollows"
+                ]
+            }
+        }
+    ]
+}

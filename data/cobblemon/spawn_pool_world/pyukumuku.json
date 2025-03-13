@@ -1,0 +1,91 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pyukumuku-1",
+            "pokemon": "pyukumuku",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "maxY": 67,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "terrestria:volcanic_rock",
+                    "terrestria:andisol_grass_block"
+                ]
+            }
+        },
+        {
+            "id": "pyukumuku-2",
+            "pokemon": "pyukumuku",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "minY": 48,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        },
+        {
+            "id": "pyukumuku-3",
+            "pokemon": "pyukumuku",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        },
+        {
+            "id": "pyukumuku-4",
+            "pokemon": "pyukumuku",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "22-48",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "alexscaves:abyssal__chasm"
+                ]
+            }
+        }
+    ]
+}

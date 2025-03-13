@@ -1,0 +1,156 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ninetales-1",
+            "pokemon": "ninetales",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-51",
+            "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 2.5,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_taiga"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "ninetales-2",
+            "pokemon": "ninetales",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-51",
+            "weight": 3.4,
+            "condition": {
+                "timeRange": "twilight",
+                "canSeeSky": true,
+                "biomes": [
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "ninetales-3",
+            "pokemon": "ninetales",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-51",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ]
+            }
+        },
+        {
+            "id": "ninetales-4",
+            "pokemon": "ninetales",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-58",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "betterend:amber_land",
+                    "betterend:lantern_woods"
+                ]
+            }
+        },
+        {
+            "id": "ninetales-alolan-1",
+            "pokemon": "ninetales alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-51",
+            "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 2.5,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        },
+        {
+            "id": "ninetales-alolan-2",
+            "pokemon": "ninetales alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-51",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ]
+            }
+        },
+        {
+            "id": "ninetales-alolan-3",
+            "pokemon": "ninetales alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-54",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "betterend:ice_starfield",
+                    "ad_astra:glacio_ice_peaks",
+                    "ad_astra:glacio_snowy_barrens"
+                ]
+            }
+        }
+    ]
+}

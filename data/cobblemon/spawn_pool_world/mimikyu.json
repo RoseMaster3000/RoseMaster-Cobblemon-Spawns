@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mimikyu-1",
+            "pokemon": "mimikyu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "23-48",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "nyctophobia:eroded_haunted_forest",
+                    "nyctophobia:haunted_forest",
+                    "regions_unexplored:ashen_woodland",
+                    "regions_unexplored:blackwood_taiga"
+                ]
+            }
+        },
+		{
+            "id": "mimikyu-2",
+            "pokemon": "mimikyu",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "23-48",
+            "weight": 10.0,
+            "condition": {
+				"canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

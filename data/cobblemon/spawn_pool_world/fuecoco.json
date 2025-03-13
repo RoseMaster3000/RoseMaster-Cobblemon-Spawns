@@ -1,0 +1,67 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fuecoco-1",
+            "pokemon": "fuecoco",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "fuecoco-2",
+            "pokemon": "fuecoco",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        },
+        {
+            "id": "fuecoco-3",
+            "pokemon": "fuecoco",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "regions_unexplored:scorching_caves",
+                    "terralith:cave/mantle_caves"
+                ],
+                "neededNearbyBlocks": [
+                    "regions_unexplored:ash_vent",
+                    "#minecraft:basalt",
+                    "#minecraft:blackstone",
+                    "#minecraft:lava"
+                ]
+            }
+        }
+    ]
+}

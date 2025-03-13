@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dratini-1",
+            "pokemon": "dratini",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "5-30",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 32,
+                "biomes": [
+                    "#cobblemon:is_overworld",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "dratini-2",
+            "pokemon": "dratini",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "5-30",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 48,
+                "biomes": [
+                    "#cobblemon:is_overworld",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "dratini-3",
+            "pokemon": "dratini",
+            "presets": [
+                "underwater",
+                "ocean_ruins"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "5-30",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "terrestria:volcanic_island"
+                ]
+            }
+        },
+        {
+            "id": "dratini-4",
+            "pokemon": "dratini",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "8-36",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "betterend:megalake",
+                    "betterend:megalake_grove",
+                    "stellarity:dragons_den"
+                ]
+            }
+        }
+    ]
+}

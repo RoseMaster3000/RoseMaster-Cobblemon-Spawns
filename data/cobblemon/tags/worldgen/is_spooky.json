@@ -1,0 +1,62 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    {
+      "id": "nyctophobia:dead_coral_reef",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:eroded_haunted_forest",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:haunted_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:ashen_woodland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwoods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_forest",
+      "required": false
+    },
+    {
+      "id": "#byg:is_spooky",
+      "required": false
+    },
+	{
+      "id": "#forge:is_spooky",
+      "required": false
+    },
+	{
+      "id": "#wythers:is_dark_forest",
+      "required": false
+    },
+	{
+      "id": "byg:ebony_woods",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_taiga",
+      "required": false
+    },
+    {
+      "id": "wythers:bayou",
+      "required": false
+    },
+    {
+      "id": "wythers:tangled_forest",
+      "required": false
+    }
+  ]
+}

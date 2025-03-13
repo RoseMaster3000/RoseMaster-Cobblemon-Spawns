@@ -1,0 +1,79 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "marowak-1",
+            "pokemon": "marowak",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-43",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            }
+        },
+        {
+            "id": "marowak-alolan-1",
+            "pokemon": "marowak",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-43",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_desert",
+                    "#cobblemon:nether/is_soul_fire"
+                ]
+            }
+        },
+        {
+            "id": "marowak-2",
+            "pokemon": "marowak",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-46",
+            "weight": 1.8,
+            "condition": {
+                "biomes": [
+                    "betterend:dust_wastelands"
+                ]
+            }
+        },
+        {
+            "id": "marowak-alolan-2",
+            "pokemon": "marowak",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-46",
+            "weight": 1.8,
+            "condition": {
+                "biomes": [
+                    "betterend:umbra_valley"
+                ]
+            }
+        }
+    ]
+}
