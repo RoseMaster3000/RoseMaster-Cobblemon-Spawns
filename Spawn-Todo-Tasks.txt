@@ -17,14 +17,13 @@ add > Better Nether Fortress
 DIMENSIONS
 ---------------------
 add > betterend > ultra beasts / future pokemon
-
 add > betternether > primal pokemon
 
 
 SHENANIGANS
 ----------------------
 reveiw psudo-legendaries
-sprinkle lvl 100 legendaries (?)
+sprinkle lvl 100 legendaries (hyper specific biomes)
 
 
 REVIEW (neter/end spawns for following...)
